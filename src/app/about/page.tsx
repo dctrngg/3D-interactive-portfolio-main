@@ -209,9 +209,9 @@ const TOOLS = [
   {
     name: "Kubuntu",
     content: "Next.js is a React framework for production",
-    // give me correct color for  kubuntu
-    icon: <SiKubuntu size={"50px"} color="#0077C4" />,
-    color: "#000000",
+    // corrected Kubuntu color: a bright blue #0095D5 is Kubuntu's official color
+    icon: <SiKubuntu size={"50px"} color="#0095D5" />,
+    color: "#0095D5",
   },
   {
     name: "Terminal",
@@ -287,13 +287,10 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Duc Trung, a recent Computer Science graduate with 1.5 years of internship and part-time experience in software development, DevOps, and database management.
-I've had hands-on experience in deploying and automating workflows, and collaborating effectively with international clients. I bring strong analytical skills, clear communication, and a team-oriented mindset to help drive process improvements and deliver impactful results.
+              {"Hey there! I'm Duc Trung, a recent Computer Science graduate with 1.5 years of internship and part-time experience in software development, DevOps, and database management. I've had hands-on experience in deploying and automating workflows, and collaborating effectively with international clients. I bring strong analytical skills, clear communication, and a team-oriented mindset to help drive process improvements and deliver impactful results."}
             </p>
             <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
-              while brainstorming my next project.
+              {"When I'm not coding, you can find me [Your Interests/Hobbies], exploring new technologies, or sipping coffee while brainstorming my next project."}
             </p>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
@@ -328,34 +325,6 @@ I've had hands-on experience in deploying and automating workflows, and collabor
                 </Splide>
               )}
             </div>
-            {/* <div className="">
-              <Splide
-                options={{
-                  type: "loop",
-                  interval: 2000,
-                  autoplay: true,
-                  pagination: false,
-                  speed: 3000,
-                  perPage: 5,
-                  perMove: 1,
-                  rewind: true,
-                  easing: "cubic-bezier(0.25, 1, 0.5, 1)",
-                  arrows: false,
-                }}
-                aria-label="My Favorite Images"
-              >
-                {TOOLS.map((tool) => (
-                  <SplideSlide key={tool.name}>
-                    <div
-                      key={tool.name}
-                      className="w-fit p-2 border-[.5px] border-zinc-600 rounded-md"
-                    >
-                      {tool.icon}
-                    </div>
-                  </SplideSlide>
-                ))}
-              </Splide>
-            </div> */}
           </div>
         </main>
       </div>
