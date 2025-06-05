@@ -97,7 +97,7 @@ using use = useUsing("use")`,
     name: "vue",
     label: "Vue",
     shortDescription:
-      "the chill pill for your frontend, it hits different! 🟢😌",
+      "I am planning to learn new technologies in the near future to enhance my expertise and keep up with the latest industry developments 🟢😌",
     color: "#41b883",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
   },

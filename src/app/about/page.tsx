@@ -287,10 +287,8 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Abhijit, a Comp. Sci. Engineer with 1.5 year experience in Devlopment, DevOps and 
-              Database management with hands-on experience in deploying & automating workflows, and 
-              collaborating with foreign clients. Strong analytical skills,effective communication,
-              and a team-oriented approach to driving process improvements and delivering results.
+              Hey there! I&apos;m Duc Trung, a recent Computer Science graduate with 1.5 years of internship and part-time experience in software development, DevOps, and database management.
+I've had hands-on experience in deploying and automating workflows, and collaborating effectively with international clients. I bring strong analytical skills, clear communication, and a team-oriented mindset to help drive process improvements and deliver impactful results.
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me [Your

@@ -12,10 +12,8 @@ const PROJECTS = [
   {
     id: 1,
     name: "AI Dockerfile optimizer",
-    description: `AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization..`,
+    description: `AskPhill empowers fashion and lifestyle brands to grow through seamless e-commerce experiences.
+We specialize in designing and developing high-performance Shopify stores that balance creativity, user experience, and conversion. Our team merges deep technical knowledge with strong branding insights to build digital platforms that are fast, scalable, and future-ready. Trusted by global brands, we help you elevate your online presence and drive long-term success.`,
     link: "https://ai-docker-file-optimizer.netlify.app/",
     images: [
       "/assets/projects-screenshots/aidockerfileoptimizer/1.png",
@@ -51,7 +49,7 @@ const PROJECTS = [
     name: "Portfolio",
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
-    link: "https://www.abhijitzende.com/",
+    link: "https://dctrngg.netlify.app/",
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",

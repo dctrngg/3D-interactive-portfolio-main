@@ -902,8 +902,8 @@ const projects: Project[] = [
     title: "My Portfolio",
     src: "/assets/projects-screenshots/myportfolio/landing.png",
     screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+    live: "https://dctrngg.netlify.app/",
+    github:"https://github.com/dctrngg/3D-interactive-portfolio-main",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -966,30 +966,32 @@ const projects: Project[] = [
     id: "smartparkingassitant",
     category: "IoT",
     title: "Smart Parking Assistant",
-    src: "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
-    screenshots: ["01.jpeg", "03.png"],
-    live: "https://github.com/Abhiz2411/smart-parking-assistant",
-    github:"https://github.com/Abhiz2411/smart-parking-assistant",
+    src: "/assets/projects-screenshots/smartparkingassitant/1.png",
+    screenshots: ["1.png", "3.png"],
+    live: "https://www.stickerimage.com/",
+    github:"https://www.stickerimage.com/",
     skills: {
-      frontend: [PROJECT_SKILLS.python],
-      backend: [PROJECT_SKILLS.cplusplus, PROJECT_SKILLS.arduino],
+      frontend: [PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.next,
+        PROJECT_SKILLS.shadcn,
+        PROJECT_SKILLS.aceternity,
+        PROJECT_SKILLS.framerMotion,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.spline,],
+      backend: [],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
-            and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
-            that visualizes availability and an intelligent system for quick, optimal decisions. 
-            Built to adapt with customizable hardware and Python-powered software for seamless 
-            integration. Say goodbye to parking woes and hello to smarter space utilization!
+            Simply upload your artwork or use our intuitive design tool to create stickers tailored to your needs — from product labels and brand logos to personalized decals. The system automatically handles cutting, alignment, and image optimization to ensure crisp, vibrant prints. With a streamlined process, user-friendly interface, and high-quality printing services, StickerImage delivers a fully personalized experience — from design to finished product, shipped directly to your door nationwide.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/smartparkingassitant/01.jpeg`,
-              `${BASE_PATH}/smartparkingassitant/03.png`,
-              `${BASE_PATH}/smartparkingassitant/04.jpg`,
+              `${BASE_PATH}/smartparkingassitant/1.png`,
+              `${BASE_PATH}/smartparkingassitant/3.png`,
+              `${BASE_PATH}/smartparkingassitant/2.png`,
             ]}
           />
         </div>
@@ -998,30 +1000,26 @@ const projects: Project[] = [
   },
   { // 05. Smart Job Tracker project
     id: "smartjobtracker",
-    category: "Full stack",
-    title: "Smart Job Tracker",
-    src: "/assets/projects-screenshots/smartjobtracker/02.png",
-    screenshots: ["01.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
+    category: "Landing Page",
+    title: "Hung Vuong Concert",
+    src: "/assets/projects-screenshots/smartjobtracker/1.png",
+    screenshots: ["1.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
     live: "https://job-tracker-application-eight.vercel.app/",
     github:"https://github.com/Abhiz2411/Job-tracker-application",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.html, PROJECT_SKILLS.css],
       backend: [PROJECT_SKILLS.firebase],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            Track your job applications effortlessly with a sleek, dark-themed app that lets you 
-            manage, filter, and visualize your job search. Organize your applications with a 
-            Kanban board, monitor progress through status updates, and store everything securely. 
-            Enjoy seamless access across devices with a responsive design and email reminders for 
-            interviews. A smarter, more intuitive way to stay on top of your job hunt!
+            Designed with world-class acoustics and contemporary architecture, the hall offers a premier experience for both artists and audiences. From classical symphonies and contemporary music to dance, theater, and local cultural events, Hung Vuong Concert Hall provides a versatile space that inspires creativity and connection. With advanced technical infrastructure and professional event services, it serves as a central hub for cultural enrichment, artistic collaboration, and unforgettable live experiences.t!
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/smartjobtracker/01.png`,
+              `${BASE_PATH}/smartjobtracker/1.png`,
               `${BASE_PATH}/smartjobtracker/02.png`,
               `${BASE_PATH}/smartjobtracker/03.png`,
               `${BASE_PATH}/smartjobtracker/04.png`,
@@ -1034,41 +1032,41 @@ const projects: Project[] = [
       );
     },
   },
-  { // 06. Savinder Puri portfolio project
-    id: "savinderpurisportfolio",
-    category: "Web Development",
-    title: "Savinder Puri Portfolio",
-    src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
-    screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
-    live: "https://savinder-puri.vercel.app/",
-    github:"https://github.com/Abhiz2411/savinder-puri",
-    skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            Step into the digital world of Savinder Puri, the beloved DevOps guru and Spiritual 
-            Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
-            milestones, and life-changing services blending tech and spirituality. Built with 
-            modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
-            transforms lives. 💻🕊️ Crafted with ❤️ by Abhijit Zende! 🚀
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `${BASE_PATH}/savinderpuriportfolio/01.png`,
-              `${BASE_PATH}/savinderpuriportfolio/02.png`,
-              `${BASE_PATH}/savinderpuriportfolio/03.png`,
-              `${BASE_PATH}/savinderpuriportfolio/04.png`,
-              `${BASE_PATH}/savinderpuriportfolio/05.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // { // 06. Savinder Puri portfolio project
+  //   id: "savinderpurisportfolio",
+  //   category: "Web Development",
+  //   title: "Savinder Puri Portfolio",
+  //   src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
+  //   screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
+  //   live: "https://savinder-puri.vercel.app/",
+  //   github:"https://github.com/Abhiz2411/savinder-puri",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           Step into the digital world of Savinder Puri, the beloved DevOps guru and Spiritual 
+  //           Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
+  //           milestones, and life-changing services blending tech and spirituality. Built with 
+  //           modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
+  //           transforms lives. 💻🕊️ Crafted with ❤️ by Abhijit Zende! 🚀
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `${BASE_PATH}/savinderpuriportfolio/01.png`,
+  //             `${BASE_PATH}/savinderpuriportfolio/02.png`,
+  //             `${BASE_PATH}/savinderpuriportfolio/03.png`,
+  //             `${BASE_PATH}/savinderpuriportfolio/04.png`,
+  //             `${BASE_PATH}/savinderpuriportfolio/05.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 ];
 export default projects;
