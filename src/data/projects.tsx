@@ -771,12 +771,12 @@ const projects: Project[] = [
   // +
   { // 01. AI Docker file optimizer project
     id: "aidockerfileoptimizer",
-    category: "AI and DevOps",
-    title: "AI Dockerfile Optimizer",
+    category: "Landing Page",
+    title: "Ask Phill Stu",
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
-    live: "https://ai-docker-file-optimizer.netlify.app/",
-    github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
+    live: "https://askphill.com/",
+    github:"https://askphill.com/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
@@ -964,8 +964,8 @@ const projects: Project[] = [
   },
   { // 04. Smart parking assitant
     id: "smartparkingassitant",
-    category: "IoT",
-    title: "Smart Parking Assistant",
+    category: "Tiny apps",
+    title: "Sticker Image",
     src: "/assets/projects-screenshots/smartparkingassitant/1.png",
     screenshots: ["1.png", "3.png"],
     live: "https://www.stickerimage.com/",
