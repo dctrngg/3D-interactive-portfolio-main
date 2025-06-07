@@ -1004,8 +1004,8 @@ const projects: Project[] = [
     title: "Hung Vuong Concert",
     src: "/assets/projects-screenshots/smartjobtracker/1.png",
     screenshots: ["1.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
-    live: "https://job-tracker-application-eight.vercel.app/",
-    github:"https://github.com/Abhiz2411/Job-tracker-application",
+    live: "https://hungvuongconcert.com/",
+    github:"  ",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.html, PROJECT_SKILLS.css],
       backend: [PROJECT_SKILLS.firebase],
