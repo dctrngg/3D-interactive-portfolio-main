@@ -32,10 +32,10 @@ const config = {
   ],
   author: "Duc Trung",
   email: "ductrungnguyen30@gmail.com",
-  site: "https://abhijitzende.com",
+  site: "https://dctrngg.netlify.app/",
 
   get ogImg() {
-    return this.site + "/assets/seo/og-image.png";
+    return this.site + "/assets/seo/01.png";
   },
   social: {
     twitter: "",
