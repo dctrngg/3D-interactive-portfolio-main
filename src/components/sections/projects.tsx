@@ -130,7 +130,7 @@ const ProjectContents = ({ project }: { project: Project }) => {
             className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
           >
             <Image
-              src={`${project.src.split("1.png")[0]}${image}`}
+              src={${project.src.split("1.png")[0]}${image}}
               alt="screenshots"
               width="500"
               height="500"
