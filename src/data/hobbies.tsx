@@ -20,7 +20,6 @@ export type Hobby = {
 
 const hobbies: Hobby[] = [
   { // 01 Tofu
-    id: "artisan",
     category: "Collection",
     title: "Artisan",
     src: "/assets/projects-screenshots/keebs/artisans/01.jpg",
