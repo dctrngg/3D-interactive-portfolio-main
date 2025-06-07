@@ -19,11 +19,11 @@ export type Hobby = {
 };
 
 const hobbies: Hobby[] = [
-  { // 01 Tofu
+  { // 01 Artisan
     category: "Collection",
     title: "Artisan",
     src: "/assets/projects-screenshots/keebs/artisans/01.jpg",
-    screenshots: ["1.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
+    screenshots: ["01.jpg", "02.jpg", "03.jpg","04.jpg","05.jpg",],
     get content() {
       return (
         <div>
@@ -43,6 +43,51 @@ const hobbies: Hobby[] = [
       );
     },
   },
+  { // 02 Tofu
+    category: "Keebs",
+    title: "Tofu",
+    src: "/assets/projects-screenshots/keebs/tofu/01.jpg",
+   screenshots: ["01.jpg", "02.jpg", "03.jpg","04.jpg","05.jpg",],
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Designed with world-class acoustics and contemporary architecture, the hall offers a premier experience for both artists and audiences. From classical symphonies and contemporary music to dance, theater, and local cultural events, Hung Vuong Concert Hall provides a versatile space that inspires creativity and connection. With advanced technical infrastructure and professional event services, it serves as a central hub for cultural enrichment, artistic collaboration, and unforgettable live experiences.t!
+          </TypographyP>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/tofu/01.jpg`,
+              `${BASE_PATH}/tofu/02.jpg`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+  { // 03 E7
+    category: "Keebs",
+    title: "E7v2",
+    src: "/assets/projects-screenshots/keebs/e7/01.jpg",
+   screenshots: ["01.jpg", "02.jpg", "03.jpg","04.jpg"],
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Designed with world-class acoustics and contemporary architecture, the hall offers a premier experience for both artists and audiences. From classical symphonies and contemporary music to dance, theater, and local cultural events, Hung Vuong Concert Hall provides a versatile space that inspires creativity and connection. With advanced technical infrastructure and professional event services, it serves as a central hub for cultural enrichment, artistic collaboration, and unforgettable live experiences.t!
+          </TypographyP>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/e7/01.jpg`,
+              `${BASE_PATH}/e7/02.jpg`,
+              `${BASE_PATH}/e7/03.jpg`,
+              `${BASE_PATH}/e7/04.jpg`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+ 
  
 ];
 
