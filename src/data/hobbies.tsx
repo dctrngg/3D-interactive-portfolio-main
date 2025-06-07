@@ -82,7 +82,7 @@ const hobbies: Hobby[] = [
       return (
         <div>
           <TypographyP className="font-mono">
-            With a playful yet solid design, the Akko Acr59 keyboard brings vibrant aesthetics and smooth keystrokes together in a compact package. The acrylic case gives it a unique glow, while the gasket mount structure ensures comfortable typing. Whether you're a beginner or seasoned keeb enthusiast, this board blends fun and function in a budget-friendly design.
+            With a playful yet solid design, the Akko Acr59 keyboard brings vibrant aesthetics and smooth keystrokes together in a compact package. The acrylic case gives it a unique glow, while the gasket mount structure ensures comfortable typing. Whether you&#39;re a beginner or seasoned keeb enthusiast, this board blends fun and function in a budget-friendly design.
           </TypographyP>
           <SlideShow
             images={this.screenshots.map((img) => `${BASE_PATH}/acr59/${img}`)}
@@ -100,7 +100,7 @@ const hobbies: Hobby[] = [
       return (
         <div>
           <TypographyP className="font-mono">
-            Blending ergonomic comfort with elegant design, the Spring Alice is a standout in the world of mechanical keyboards. Its signature split layout promotes a natural typing posture, reducing strain while maintaining a sleek and modern silhouette.
+            Blending ergonomic comfort with elegant design, the Spring Alice is a standout in the world of mechanical keyboards. Its signature split layout promotes a natural typing posture, reducing strain while maintaining a sleek and modern silhouette. Built with high-quality materials and a focus on acoustics, the Spring Alice delivers a soft, satisfying sound profile and smooth keystrokes. Highly customizable with support for various switches, keycaps, and mounting styles, it caters to both aesthetic and performance-driven preferences. The Spring Alice isn&#39;t just a keyboard&#8212;it&#39;s a refined experience crafted for everyday comfort and creative expression.
           </TypographyP>
           <SlideShow
             images={this.screenshots.map((img) => `${BASE_PATH}/alice/${img}`)}
