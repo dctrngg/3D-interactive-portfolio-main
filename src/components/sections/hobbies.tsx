@@ -77,9 +77,12 @@ const HobbyContents = ({ hobby }: { hobby: Hobby }) => {
         {hobby.title}
       </h4>
 
-      {hobby.content}
+      <div className="mt-6">
+        {hobby.content}
+      </div>
     </>
   );
 };
+
 
 export default HobbiesSection;
