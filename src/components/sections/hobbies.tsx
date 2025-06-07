@@ -77,27 +77,6 @@ const HobbyContents = ({ hobby }: { hobby: Hobby }) => {
         {hobby.title}
       </h4>
 
-      {(hobby.skills?.frontend?.length || hobby.skills?.backend?.length) && (
-        <div className="flex flex-col md:flex-row md:justify-evenly max-w-screen overflow-hidden md:overflow-visible mb-8">
-          {hobby.skills?.frontend?.length > 0 && (
-            <div className="flex flex-row md:flex-col-reverse justify-center items-center gap-2 text-3xl mb-4">
-              <p className="text-sm mt-1 text-neutral-600 dark:text-neutral-500">
-                Frontend
-              </p>
-              <FloatingDock items={hobby.skills.frontend} />
-            </div>
-          )}
-          {hobby.skills?.backend?.length > 0 && (
-            <div className="flex flex-row md:flex-col-reverse justify-center items-center gap-2 text-3xl mb-4">
-              <p className="text-sm mt-1 text-neutral-600 dark:text-neutral-500">
-                Backend
-              </p>
-              <FloatingDock items={hobby.skills.backend} />
-            </div>
-          )}
-        </div>
-      )}
-
       {hobby.content}
     </>
   );
