@@ -1,32 +1,29 @@
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-
 import "@splidejs/react-splide/css";
-
 import Image from "next/image";
 
 const SlideShow = ({ images }: { images: string[] }) => {
   return (
     <Splide
       options={{
-        autoplay: true, // thay "true" (chuỗi) thành true (boolean)
+        autoplay: true,
         perPage: 1,
         start: 0,
         rewind: true,
-        padding: { left: '3rem', right: '3rem' },
+        padding: { left: "3rem", right: "3rem" },
         gap: "1rem",
       }}
       hasTrack={false}
+      className="w-full max-w-4xl mx-auto"
     >
       <SplideTrack>
         {images.map((image, idx) => (
-          <SplideSlide key={idx} className="flex items-center">
+          <SplideSlide key={idx} className="relative aspect-[4/3]">
             <Image
               src={image}
-              alt="screenshot"
-              width={1000}
-              height={1000}
-              className="w-full rounded-lg h-auto"
-              style={{ objectFit: "contain" }}
+              alt={`screenshot-${idx}`}
+              fill
+              className="rounded-lg object-cover"
             />
           </SplideSlide>
         ))}
